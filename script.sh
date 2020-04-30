@@ -4,7 +4,7 @@ timestamps {
             git credentialsId: '15c42020-ae55-4bed-9a13-e93c4f48d864', url: 'https://github.com/itstjbala/ibm-devops-basics.git'
         }
         stage('Hello') {
-            bat label: '', script: 'echo "[INFO] This is running on Windows"'
+            bat label: '', script: 'echo "[INFO] This is running on "'
         }
     }
         
